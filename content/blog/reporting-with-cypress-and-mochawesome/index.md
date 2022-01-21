@@ -8,13 +8,13 @@ Mocha is a test framework that runs on Node.js and is able to make asynchronous 
 
 In order to create a report, first you have to install mochawesome and the report generator:
 
-{% highlight javascript %}
+```
 npm install --save-dev mochawesome mochawesome-merge mochawesome-report-generator  
-{% endhighlight %}
+```
 
 In cypress.json we can configure the reporter to have mochawesome create JSON files in the cypress/results folder:
 
-{% highlight javascript %}
+```
 {
   "reporter": "mochawesome",
   "reporterOptions": {
@@ -24,29 +24,30 @@ In cypress.json we can configure the reporter to have mochawesome create JSON fi
     "json": true
   }
 }  
-{% endhighlight %}
+```
 
 The above setting will generate JSON files like these:
 
-{% highlight javascript %}
+```
 cypress/results/mochawesome.json or cypress/results/mochawesome_001.json
-{% endhighlight %}
+```
 
 which can be merged in one only file with *mochawesome-merge*:
 
+```
 {% highlight bash %}
 npx mochawesome-merge "cypress/results/*.json" > mochawesome.json
-{% endhighlight %}
+```
 
 Then we can create an HTML file using *mochawesome-report-generator* (marge):
 
-{% highlight javascript %}
+```
 npx marge mochawesome.json
-{% endhighlight %}
+```
 
 Let's say we have this spec code to go to Wikipedia page and interact with the landing page:
 
-{% highlight javascript %}
+```
 describe('Mochawesome example', () => {
   it('Visit wikipedia', () => {
     cy.visit('https://www.wikipedia.org/');
@@ -56,26 +57,27 @@ describe('Mochawesome example', () => {
     cy.get('h1').should('contain', 'Software testing');
   });
 });
-{% endhighlight %}
+```
 
 After running in headless mode with the command:
-{% highlight javascript %}
+
+```
 npx cypress run
-{% endhighlight %}
+```
 
 Then we call the commands mentioned above:
 
-{% highlight javascript %}
-  npx mochawesome-merge "cypress/results/*.json" > mochawesome.json
-  npx marge mochawesome.json
-{% endhighlight %}
+```
+npx mochawesome-merge "cypress/results/*.json" > mochawesome.json
+npx marge mochawesome.json
+```
 
 We get this report in mochawesome-report/mochawesome.html:
 
 
 What if the test fails? For example, in this code snippet:
 
-{% highlight javascript %}
+```
 describe('Mochawesome example', () => {
   it('Visit wikipedia', () => {
     cy.visit('https://www.wikipedia.org/');
@@ -85,7 +87,7 @@ describe('Mochawesome example', () => {
     cy.get('h1').should('contain', 'Api testing'); // Here the test will fail
   });
 })
-{% endhighlight %}
+```
 
 We still get a report on the failed test and the output error:
 
