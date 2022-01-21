@@ -35,7 +35,6 @@ cypress/results/mochawesome.json or cypress/results/mochawesome_001.json
 which can be merged in one only file with *mochawesome-merge*:
 
 ```
-{% highlight bash %}
 npx mochawesome-merge "cypress/results/*.json" > mochawesome.json
 ```
 

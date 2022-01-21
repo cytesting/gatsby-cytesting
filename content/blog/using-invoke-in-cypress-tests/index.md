@@ -28,7 +28,6 @@ cy.wrap(obj).invoke('sum', 2, 3).should('eq', 5);
 We can extract text from an HTML element. Let's say we have an *h1* element:
 
 ```
-{% highlight html %}
 <h1>Cypress testing</h1>
 ```
 
