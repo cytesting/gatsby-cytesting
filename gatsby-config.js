@@ -3,7 +3,7 @@ module.exports = {
     title: `End-to-end Testing`,
     author: {
       name: `Leonardo Martinez`,
-      summary: ` Tech enthusiast and pythonista.`,
+      summary: `. Tech enthusiast and pythonista.`,
     },
     description: `An opinionated blog.`,
     siteUrl: `https://cytesting.com.co/`,

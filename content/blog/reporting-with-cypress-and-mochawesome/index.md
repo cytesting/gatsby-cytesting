@@ -1,6 +1,6 @@
 ---
 title: Reporting with Cypress and Mochawesome
-date: "2022-02-21T10:40:32.169Z"
+date: "2022-01-20T10:40:32.169Z"
 description: Mochawesome is a reporter that can be integrated with Cypress
 ---
 

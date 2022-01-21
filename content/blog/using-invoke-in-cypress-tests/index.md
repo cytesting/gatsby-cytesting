@@ -1,6 +1,6 @@
 ---
 title: Using invoke() in Cypress tests
-date: "2022-01-21T22:11:03.284Z"
+date: "2022-01-19T22:11:03.284Z"
 description: The function invoke() can be used to extract information from a DOM node
 ---
 
