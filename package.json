@@ -10,6 +10,7 @@
   "dependencies": {
     "@deckdeckgo/highlight-code": "^3.6.0",
     "gatsby": "^4.5.4",
+    "gatsby-image": "^3.11.0",
     "gatsby-plugin-feed": "^4.5.0",
     "gatsby-plugin-gatsby-cloud": "^4.5.2",
     "gatsby-plugin-google-analytics": "^4.5.0",
