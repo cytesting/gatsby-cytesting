@@ -1,12 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Leonardo Martinez's Blog`,
+    title: `End-to-end Testing`,
     author: {
       name: `Leonardo Martinez`,
-      summary: `Tech enthusiast and pythonista.`,
+      summary: ` Tech enthusiast and pythonista.`,
     },
     description: `An opinionated blog.`,
-    siteUrl: `https://leomartinez.gatsbyjs.io/`,
+    siteUrl: `https://cytesting.com.co/`,
     social: {
       twitter: `Pythonista100`,
     },
@@ -105,7 +105,7 @@ module.exports = {
               }
             `,
             output: "/rss.xml",
-            title: "Leonardo Martinez's Blog RSS Feed",
+            title: "End-to-end Testing Blog RSS Feed",
           },
         ],
       },
@@ -113,7 +113,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Leonardo Martinez's Blog`,
+        name: `End-to-end Testing`,
         short_name: `GatsbyJS`,
         start_url: `/`,
         background_color: `#ffffff`,
