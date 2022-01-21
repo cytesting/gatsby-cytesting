@@ -4,6 +4,8 @@ date: "2022-01-20T10:40:32.169Z"
 description: Mochawesome is a reporter that can be integrated with Cypress
 ---
 
+![mochawesome reporter](./mochawesome-featured.png)
+
 Mocha is a test framework that runs on Node.js and is able to make asynchronous tests in the browser. Cypress uses Mocha bdd syntax structure to carry out tests. Mocha allows the use of reporters in cypress tests. Mochawesome is a reporter that can generate HTML/CSS reports to visualize test run executions. It works well with Cypress.
 
 In order to create a report, first you have to install mochawesome and the report generator:
