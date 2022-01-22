@@ -3,6 +3,7 @@ title: Reporting with Cypress and Allure
 date: "2022-01-22T12:46:37.121Z"
 description: 
 ---
+![allure report](./allure-report.png)
 
 Allure is a test tool to create nice-looking and concise reports. It can be configured to show bugs, fixtures, broken tests, timing, and history.
 
@@ -122,3 +123,7 @@ describe('example to-do app', () => {
 ```
 
 These screenshots show some sections of the allure report:
+
+![allure report](./allure-report2.png)
+
+![allure report](./allure-report.png)

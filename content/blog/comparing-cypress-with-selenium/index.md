@@ -66,6 +66,7 @@ pytest test_signup.py --html=report.html --self-contained-html
 
 An HTML report (report.html) is generated:
 
+![selenium test](./selenium-test.png)
 
 ## Testing user's signup with Cypress
 
@@ -100,3 +101,5 @@ npx cypress run
 ```
 
 If we use the mochawesome report generator, we obtain:
+
+![cypress test](./cy-vs-selenium.png)

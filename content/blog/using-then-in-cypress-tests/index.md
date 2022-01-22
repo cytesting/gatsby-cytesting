@@ -75,3 +75,5 @@ describe('Assertions', () => {
 ```
 
 And these are the results as seen in the test runner:
+
+![then command](./then.png)

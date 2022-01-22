@@ -75,6 +75,7 @@ npx marge mochawesome.json
 
 We get this report in mochawesome-report/mochawesome.html:
 
+![passing test](./mocha-pass-test.png)
 
 What if the test fails? For example, in this code snippet:
 
@@ -92,5 +93,6 @@ describe('Mochawesome example', () => {
 
 We still get a report on the failed test and the output error:
 
+![failing test](./mocha-fail-test.png)
 
 With mochawesome you can present the results of your test automation which include passing or failing specs, the duration of each spec, and the error messages when tests fail. 
